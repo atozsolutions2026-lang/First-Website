@@ -1,0 +1,145 @@
+[index.html.html](https://github.com/user-attachments/files/23727962/index.html.html)
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>A to Z Solutions — Home</title>
+  <meta name="description" content="A to Z Solutions — Real estate, CRM, WhatsApp marketing and small business services." />
+  <link rel="icon" href="data:;base64,iVBORw0KGgo=" />
+  <style>
+    :root{--accent:#0b74de;--bg:#f7f9fc;--card:#fff;--muted:#6b7280}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter,Segoe UI,Roboto,system-ui,-apple-system,"Helvetica Neue",Arial;background:var(--bg);color:#0f172a}
+    .wrap{max-width:1100px;margin:28px auto;padding:20px}
+    header{display:flex;align-items:center;justify-content:space-between}
+    .brand{display:flex;gap:12px;align-items:center}
+    .logo{width:54px;height:54px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#06b6d4);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:18px}
+    h1{margin:0;font-size:1.6rem}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+    .cta{display:flex;gap:8px}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:600}
+    .btn-primary{background:var(--accent);color:white}
+    .btn-ghost{background:transparent;border:1px solid #e6eef9;color:var(--accent)}
+    main{margin-top:22px}
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:20px;align-items:start}
+    .card{background:var(--card);padding:18px;border-radius:14px;box-shadow:0 6px 18px rgba(14,30,37,0.06)}
+    .services{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:12px}
+    .service{padding:12px;border-radius:10px;background:linear-gradient(180deg,#ffffff,#fbfdff);border:1px solid #eef6ff}
+    .contact{display:flex;flex-direction:column;gap:8px}
+    footer{text-align:center;color:var(--muted);margin-top:18px;font-size:13px}
+    .socials{display:flex;gap:8px;justify-content:center;margin-top:10px}
+    .input,textarea{width:100%;padding:10px;border-radius:8px;border:1px solid #e6eef9}
+    textarea{min-height:100px}
+    @media(max-width:880px){.hero{grid-template-columns:1fr;}.services{grid-template-columns:repeat(2,1fr)} }
+    @media(max-width:520px){.services{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo">A</div>
+        <div>
+          <h1>A to Z Solutions</h1>
+          <p class="lead">Real estate | CRM | WhatsApp marketing | Small business solutions</p>
+        </div>
+      </div>
+      <div class="cta">
+        <a class="btn btn-primary" href="mailto:contact@atozsolutions.example">Email Us</a>
+        <a class="btn btn-ghost" href="#contact">Contact</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="card">
+          <h2>Grow your business, the simple way</h2>
+          <p style="color:var(--muted)">We help property owners, brokers and small businesses capture leads from WhatsApp groups, Facebook and more — then automate follow-ups with a lightweight CRM.</p>
+
+          <div class="services" aria-hidden="false">
+            <div class="service">
+              <strong>CRM Setup</strong>
+              <div style="color:var(--muted);font-size:14px;margin-top:6px">HubSpot, Zoho or custom lightweight CRM + automation flows</div>
+            </div>
+            <div class="service">
+              <strong>Lead Capture</strong>
+              <div style="color:var(--muted);font-size:14px;margin-top:6px">WhatsApp & Facebook group lead scraping (ethical), forms and quick landing pages</div>
+            </div>
+            <div class="service">
+              <strong>Property Listings</strong>
+              <div style="color:var(--muted);font-size:14px;margin-top:6px">Attractive listing pages, images & brochure PDFs</div>
+            </div>
+            <div class="service">
+              <strong>WhatsApp Templates</strong>
+              <div style="color:var(--muted);font-size:14px;margin-top:6px">Message templates for enquiries, follow-up and booking confirmations</div>
+            </div>
+            <div class="service">
+              <strong>Design & Branding</strong>
+              <div style="color:var(--muted);font-size:14px;margin-top:6px">Logo, WhatsApp DP, flyers and short videos</div>
+            </div>
+            <div class="service">
+              <strong>Training</strong>
+              <div style="color:var(--muted);font-size:14px;margin-top:6px">Team training sessions and SOPs for lead handling</div>
+            </div>
+          </div>
+
+          <div style="margin-top:14px;display:flex;gap:8px;align-items:center">
+            <a class="btn btn-primary" href="#contact">Get Free Consultation</a>
+            <a class="btn" href="https://wa.me/919999999999" target="_blank">Message on WhatsApp</a>
+          </div>
+        </div>
+
+        <aside class="card">
+          <h3>Quick info</h3>
+          <p style="color:var(--muted);font-size:14px;margin-top:6px">Location: Mumbai (serving PAN India) • Open: Mon–Sat • Languages: English, Hindi, Marathi</p>
+
+          <div style="margin-top:12px">
+            <strong>Pricing (starting)</strong>
+            <ul style="margin:8px 0 0 18px;color:var(--muted)">
+              <li>Single occupancy listing — ₹30,000</li>
+              <li>CRM setup (basic) — ₹7,500</li>
+              <li>WhatsApp starter kit — ₹2,500</li>
+            </ul>
+          </div>
+
+          <div style="margin-top:12px">
+            <strong>Phone</strong>
+            <p style="margin:6px 0"><a href="tel:+919999999999">+91 99999 99999</a></p>
+            <strong>Email</strong>
+            <p style="margin:6px 0"><a href="mailto:contact@atozsolutions.example">contact@atozsolutions.example</a></p>
+          </div>
+        </aside>
+      </section>
+
+      <section id="contact" class="card" style="margin-top:14px">
+        <h3>Contact us</h3>
+        <p style="color:var(--muted)">Send a quick message — we'll reply within one business day.</p>
+        <form class="contact" action="mailto:contact@atozsolutions.example" method="post" enctype="text/plain">
+          <input class="input" type="text" name="name" placeholder="Your name" required>
+          <input class="input" type="email" name="email" placeholder="Email" required>
+          <input class="input" type="text" name="subject" placeholder="Subject">
+          <textarea name="message" placeholder="Message"></textarea>
+          <div style="display:flex;gap:8px">
+            <button class="btn btn-primary" type="submit">Send message</button>
+            <a class="btn" href="https://wa.me/919999999999" target="_blank">Open WhatsApp</a>
+          </div>
+        </form>
+      </section>
+
+      <footer>
+        <div>© <span id="year"></span> A to Z Solutions — Built with care. </div>
+        <div class="socials">
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">LinkedIn</a>
+        </div>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
